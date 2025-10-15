@@ -10,6 +10,7 @@ car deux fois le même fichier et deux contenu différent dans le même fichier
 
 la différence entre switch/checkout : 
 
+switch permet de changer ou crée des branches et est plus simple et moins risquer, checkout est plus polyvalent dans ses options, il peut restorer des fichier ou commit par exemple
 
 la diff entre fetch et pull:
 
