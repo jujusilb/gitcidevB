@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install les dependances
-        run: npm install
+        run: npm install jest
 
       - name: run les tests
         run: npm run test
