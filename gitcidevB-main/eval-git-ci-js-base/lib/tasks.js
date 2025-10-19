@@ -19,6 +19,13 @@ function addTask(name){
     return tasks.length;
 }
 
+function countDone(){
+    let countTask=0;
+    tasks.forEach(tache=>{
+        if(tache.done) countTask++;
+    });
+    return countTask;
+}
 function toggleTask(id){
     let newtache={"name":"julien","id":1, "done":false}
     tasks.push(newtache);
@@ -34,5 +41,6 @@ module.exports = {
     getTasks,
   reset,
   addTask,
+  countDone,
   toggleTask
 }
