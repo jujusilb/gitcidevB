@@ -12,6 +12,7 @@ tasks.push(tache);
 test("toggleTask(id)",()=>{
     let returnToggle =toggleTask(id)
     expect(typeof(returnToggle)).toBe("boolean")
+    expect(typeof(returnToggle)).not.toBe("number")
 })
 
 test("countDone()",()=>{
