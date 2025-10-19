@@ -1,5 +1,3 @@
-réponse aux questions la team
-
 lors du git merge f2	
 
 Auto-mergin newfile.txt
@@ -15,6 +13,10 @@ switch permet de changer ou crée des branches et est plus simple et moins risqu
 la diff entre fetch et pull:
 
 le pull permet de fetch et d'écrire même temps en intégrant les changements au fichier de travail tandis que fetch récupère les changements mais ne modifie pas les fichiers qui ont subis des changements
+
+rebase/revert :
+
+Git revert permer d'annuler un commit via un autre commit alors que rebase permet de déplacer des commits sur une partie de la branche qui est plus récente c'est-à-dire qu'elle permet de rejouer des commits déjà existante après un push
 
 tag : permet de lister les tags qui ont été crée
 stash : permet de mettre temporairement du code de coté et de changer de branche
