@@ -1,10 +1,12 @@
 lors du git merge f2    
 
 Auto-mergin newfile.txt
-Conflic (content): Merge conflict in newfile.txt
+Conflict (content): Merge conflict in newfile.txt
 Automatic merge failed; fix conflicts and then commit the result.
 
 car deux fois le même fichier et deux contenu différent dans le même fichier
+
+le conflit à été régler a l'aide du merge éditor de vs code 
 
 la différence entre switch/checkout : 
 
