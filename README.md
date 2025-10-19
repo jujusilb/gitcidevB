@@ -16,7 +16,7 @@ la diff entre fetch et pull:
 
 le pull permet de fetch et d'écrire même temps en intégrant les changements au fichier de travail tandis que fetch récupère les changements mais ne modifie pas les fichiers qui ont subis des changements
 
-rebase/revert :
+rebase/revert : rebase permet de changer l’ordre des commits dans l’historique ou de les rejouer à un autre emplacement, tandis que revert ajoute simplement un nouveau commit à la fin pour annuler un commit précédent.
 
 Git revert permer d'annuler un commit via un autre commit alors que rebase permet de déplacer des commits sur une partie de la branche qui est plus récente c'est-à-dire qu'elle permet de rejouer des commits déjà existante après un push
 
