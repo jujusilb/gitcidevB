@@ -19,8 +19,28 @@ function addTask(name){
     return tasks.length;
 }
 
+function countDone(){
+    let countTask=0;
+    tasks.forEach(tache=>{
+        if(tache.done) countTask++;
+    });
+    return countTask;
+}
+function toggleTask(id){
+    let newtache={"name":"julien","id":1, "done":false}
+    tasks.push(newtache);
+    const foundTache = tasks.find(newtache=>newtache.id===id);
+    if(foundTache){
+        foundTache.done=!foundTache.done;
+        return foundTache.done
+    }
+    return "tache non trouvée";
+}
+
 module.exports = {
-  getTasks,
+    getTasks,
   reset,
   addTask,
+  countDone,
+  toggleTask
 }
