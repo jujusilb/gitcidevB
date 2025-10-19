@@ -19,8 +19,17 @@ function addTask(name){
     return tasks.length;
 }
 
+function countDone(){
+    let countTask=0;
+    tasks.forEach(tache=>{
+        if(tache.done) countTask++;
+    });
+    return countTask;
+}
+
 module.exports = {
   getTasks,
   reset,
   addTask,
+  countDone,
 }
